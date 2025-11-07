@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — ThinkPlus</title>
+  <link rel="icon" href="assets/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="brand" href="index.html"><img src="assets/logo.png" alt="ThinkPlus" class="logo"><span>ThinkPlus</span></a>
+      <nav id="main-nav" class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open Navigation"><span class="hamburger"></span></button>
+    </div>
+  </header>
+
+  <main class="section container contact-grid">
+    <div>
+      <h1>Contact Us</h1>
+      <p>Have questions? Fill the form and we’ll reach out within 24 hours.</p>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-row">
+          <input type="text" id="phone" name="phone" placeholder="Phone (optional)">
+        </div>
+        <div class="form-row">
+          <textarea id="message" name="message" placeholder="Your message" rows="6" required></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+
+        <div id="formAlert" class="form-alert" hidden></div>
+      </form>
+    </div>
+
+    <aside class="contact-card card">
+      <h3>Reach us</h3>
+      <p><strong>Phone:</strong> +91 7732068777</p>
+      <p><strong>Email:</strong> careers@thinkpluseducation.com</p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/thinkpluseducation/?hl=en" target="_blank">@thinkpluseducation</a></p>
+      <p><strong>YouTube:</strong> <a href="https://www.youtube.com/@ThinkplusMBA/videos" target="_blank">ThinkPlus MBA</a></p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo.png" alt="ThinkPlus" class="footer-logo">
+        <p>ThinkPlus — empowering learners with expert guidance.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>+91 7732068777</p>
+        <p>careers@thinkpluseducation.com</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p><a href="https://www.instagram.com/thinkpluseducation/?hl=en" target="_blank">Instagram</a></p>
+        <p><a href="https://www.youtube.com/@ThinkplusMBA/videos" target="_blank">YouTube</a></p>
+      </div>
+    </div>
+    <div class="container center muted small">© <span id="year4"></span> ThinkPlus Education</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
